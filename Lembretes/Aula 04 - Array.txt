@@ -1,0 +1,121 @@
+Array [ ]   representado por colchetes
+
+A contagem de posição se inicia do 0
+
+Ex.:        
+             let produtos =  ['Arroz', 'feijão', 'trigo']
+posição.:                       0         1         2
+
+
+          ------------     ***      ------------
+
+.push -> Adiciona no final da lista
+
+Ex.: 
+
+           produtos.push('Açúcar', 'Leite')                 Leitura.: ['Arroz', 'feijão', 'trigo' 'Açúcar', 'Leite']
+
+          ------------     ***      ------------
+
+
+.unshift -> Adiciona no inicio da lista
+
+Ex.: 
+
+           produtos.unshift('Uva', 'Maçã')                  Leitura.: ['Uva', 'Maçã', 'Arroz', 'feijão', 'trigo', 'Açúcar', 'Leite']  
+
+
+          ------------     ***      ------------
+
+.pop( ) -> Retira o último elemento da lista, se declarar novamente, retira novamente o último elemento próximo
+
+Ex.: 
+
+           produtos.pop()                  Leitura.: ['Uva', 'Maçã', 'Arroz', 'feijão', 'trigo', 'Açúcar']  
+           produtos.pop()                  Leitura.: ['Uva', 'Maçã', 'Arroz', 'feijão', 'trigo']
+
+
+          ------------     ***      ------------
+
+
+.shift( ) -> Retira o primeiro elemento da lista, se declarar novamente, retira novamente o primeiro elemento próximo
+
+Ex.: 
+
+           produtos.shift()                  Leitura.: ['Maçã', 'Arroz', 'feijão', 'trigo' 'Açúcar', 'Leite']   
+           produtos.shift()                  Leitura.: ['Uva', 'Maçã''Arroz', 'feijão', 'trigo' 'Açúcar', 'Leite']
+
+
+          ------------     ***      ------------
+
+.splice( ) -> Remove um elemento de uma posição específica
+
+Ex.: 
+                                            var codigos = Array(10, 20, 30, 40, 50, 60, 70)
+
+                              
+             produtos.splice(1, 3)              Leitura.: var codigos = Array(10, 50, 60, 70)
+
+  * A partir da posição 1, retirar 3 elementos
+
+
+          ------------     ***      ------------
+
+.slice( ) -> Copia todo o array
+
+ 
+    Array original.:                                Leitura.: ['Arroz', 'feijão', 'trigo' 'Açúcar', 'Leite']
+
+Ex.:       let produtos1 = produtos.slice()         Leitura.: ['Arroz', 'feijão', 'trigo' 'Açúcar', 'Leite'] 
+ 
+ * Copiou todo o array produtos
+
+
+                               
+Ex.;             produtos.slice(0, 3)               Leitura.: ['Arroz', 'feijão', 'trigo']           
+
+  * A partir da posição 1, copiar apenas 3 elementos
+
+
+          ------------     ***      ------------
+
+
+.length( ) -> Conta quantos elementos tem o array
+
+ 
+    Array original.:                                Leitura.: ['Arroz', 'feijão', 'trigo' 'Açúcar', 'Leite'] 
+
+Ex.:       produtos.length  5     
+ 
+ * Contou 3 elementos no array produtos
+
+
+                               
+Ex.:             codigos.length  3                  var codigos = Array(10, 20, 30)
+ 
+ * Contou 3 elementos no array codigos
+
+
+          ------------     ***      ------------
+
+
+spreed operator -> Representado por reticências ... , ele copia um array inteiro e adiciona elementos.
+
+ Array original.:                                Leitura.: ['Arroz', 'feijão', 'trigo' 'Açúcar', 'Leite'] 
+
+
+Ex.:  let teste = [...produtos, 'Ovo', 'pera']       Leitura.: ['Arroz', 'feijão', 'trigo' 'Açúcar', 'Leite', 'Ovo', 'pera']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
