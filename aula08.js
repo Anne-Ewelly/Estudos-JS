@@ -15,19 +15,53 @@ window
 // chamar um método(função) para
 // selecionar ele, seus dados, trazer informações, etc.
 
+
+
+/* ANOTAÇÕES DE ANNE ----------------------------------------------------------------
+
+.querySelector() ----- Seleciona um elemento do HTML
+
+
+ EXEMPLO.:    document.querySelector('h1')     ----> Selecionando a tag h1
+IMPRESSÃO NA TELA.: <h1 id="titulo">AULA 07</h1>
+
+EXEMPLO.:    document.querySelector('#titulo')        ----> Jogo da velha # para selecionar por id
+IMPRESSÃO NA TELA.: <h1 id="titulo">AULA 07</h1>
+
+EXEMPLO.:    document.querySelector('.box')      ----> Selecionando por classe tem que colocar o ponto (.) Seleciona o 1º elemento
+IMPRESSÃO NA TELA.: <div class="box">...</div>
+
+EXEMPLO.:    document.querySelectorAll('h2')      ----> querySelectorAll seleciona todos os elementos 
+IMPRESSÃO NA TELA.: <div class="box">...</div>
+
+*/
+
+
+
 // .querySelector()
 // selecionar elemento com base na tag, #id ou .class
 let titulo = document.querySelector('h1')
 //console.log(titulo)
 
-// .textContent
+
+
+/* ANOTAÇÕES DE ANNE ----------------------------------------------------------------
+
+ .textContent       ----> Serve para alterar ou acessar o conteúdo
+
+******** Se for apenas para acessar usar o nome da variável.textContent
+
+
+ */
+
+
 // propriedade ou atributo textContent
 // serve para acessar ou alterar conteudo
 // de um elemento que foi selecionado
 //console.log(titulo.textContent)
 //console.log(titulo.innerHTML)
 
-titulo.textContent = 'DOM'
+//titulo.textContent = 'DOM'
 //console.log(titulo.textContent)
 
 // .querySelectorAll()
