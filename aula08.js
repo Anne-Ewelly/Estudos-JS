@@ -36,6 +36,7 @@ IMPRESSÃO NA TELA.: <div class="box">...</div>
 
 */
 
+document.querySelector('h1')
 
 
 // .querySelector()
