@@ -36,12 +36,14 @@ IMPRESSÃO NA TELA.: <div class="box">...</div>
 
 */
 
-document.querySelector('h1')
+//document.querySelector('h1')
 
 
 // .querySelector()
 // selecionar elemento com base na tag, #id ou .class
 let titulo = document.querySelector('h1')
+
+
 //console.log(titulo)
 
 
@@ -54,6 +56,8 @@ let titulo = document.querySelector('h1')
 
 
  */
+
+titulo.textContent = 'DOM'
 
 
 // propriedade ou atributo textContent
