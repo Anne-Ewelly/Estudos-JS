@@ -4,8 +4,8 @@ let titulo = document.querySelector('h1')
 titulo.textContent = 'Aula 09 Manipular CSS'
 //titulo.innerHTML = 'Aula Manipular CSS'
 let imagem = document.querySelector('#foto')
-imagem.setAttribute('src', '../images/pride-fc.jpg')
-imagem.setAttribute('width', '280px')
+imagem.setAttribute('src', 'pride-fc.jpg')
+imagem.setAttribute('width', '350px')
 
 /* MANIPULAR CSS */
 //document.querySelector('h1').style.color = "red";
