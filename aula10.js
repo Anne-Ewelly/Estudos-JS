@@ -1,21 +1,14 @@
 /* Aula 10 Funcoes ou metodos no Js */
 
-
-
-let titulo = document.querySelector('h1')
-titulo.textContent = 'Funções no JS'     /* .textContent trocou o texto do HTML */
-let box = document.querySelectorAll('box')
+//let titulo = document.querySelector('h1')
+//titulo.textContent = 'Funções no JS'     /* .textContent trocou o texto do HTML */
+//let box = document.querySelectorAll('box')
 
 /* Funcoes sem parametros e sem retorno (procedure) */
 function olaMundo() {
     document.write('Olá Mundo sem retorno<br>')
 }
 
-let minhaFuncao
-
-function minhaFuncao(objeto) {
-    objeto.marca = 'Toyota';
-}
 
 /* Funcoes sem parametros e com retorno (function) */
 function olaMundo2() {
