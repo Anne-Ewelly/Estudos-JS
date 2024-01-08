@@ -57,7 +57,7 @@ let titulo = document.querySelector('h1')
 
  */
 
-titulo.textContent = 'DOM'
+titulo.textContent = 'Anne'
 
 
 // propriedade ou atributo textContent
@@ -76,7 +76,7 @@ let testando = document.querySelectorAll('.box')
 document.write(testando[0].textContent)
 document.write(testando[1].textContent)
 document.write(testando[2].textContent)
-//testando[0].textContent = 'texto qualquer'
+testando[0].textContent = 'texto qualquer'
 
 // Existem também os métodos
 // MAS, PREFIRA USAR O .querySelector()
